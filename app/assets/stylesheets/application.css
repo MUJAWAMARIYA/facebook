@@ -1,12 +1,16 @@
 body{
    width: 100%;
    height: 1000px;
+   color: black;
 }
 
 .header{
    
    background-color: blue;
 
+}
+td a{
+   color:black;
 }
 
 .div1{
@@ -20,10 +24,7 @@ body{
 
    padding-left: 2rem;
 }
-.div3{
 
-   background-color: red;
-}
 table{
    width: 100%;
 }
