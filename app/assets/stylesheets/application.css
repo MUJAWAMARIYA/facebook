@@ -1,103 +1,75 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- */
-
-
- body{
-    background-color: #dcdfe3;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16;
-    font-style: bold;
-}
-ul{
-    float: right;
-    width: 200px;
-}
-
-.wrapper {
-   display: flex;
-   align-items: stretch;
-}
-
-#sidebar {
-   min-width: 250px;
-   max-width: 250px;
-}
-
-#sidebar.active {
-   margin-left: -250px;
-}
-
-a[data-toggle="collapse"] {
-   position: relative;
-}
-
-.dropdown-toggle::after {
-   display: block;
-   position: absolute;
-   top: 50%;
-   right: 20px;
-   transform: translateY(-50%);
-}
-#snav{
-   background-color: blue; 
-}
-
-.himg{
-   width: 40px;
-   height: 40px;
-}
-
-.search{
-   height: 40px;
-   width: 300px;
-}
-
-.right-link{
-   padding-top: 40px;
-   padding-left: 20px;
-   font-size: 25px;
-   color:white;
-}
-
-.right-link1{
-   padding-top: 40px;
-   padding-left: 20px;
-   margin-left: 400px;
-   font-size: 25px;
-   color:white;
-   
-   
-}
-
-#users{
-   float: right;
-}
-
-.right-list{
-   float: right;
-   margin-top: 50px;
-   padding-top: 50px;
-}
-
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
+body{
    width: 100%;
-   background-color: rgb(14, 12, 15);
-   color: white;
+   height: 1000px;
+}
+
+.header{
+   
+   background-color: blue;
+
+}
+
+.div1{
+   width:300px;
+   background-color: aqua;
+  float: left;
+}
+.div2{
+   width:99%;
+   background-color: green;
+
+   padding-left: 2rem;
+}
+.div3{
+
+   background-color: red;
+}
+table{
+   width: 100%;
+}
+.part1{
+   float: left;
+   background-color:blueviolet;
+width:20%;
+height: 500px;
+}
+.part2{
+   float: right;
+   margin-left: 15rem;
+   background-color:blueviolet;
+   width: 20%;
+   height: 500px;
+}
+.part3{
+   margin-left:18rem;
+   background-color:blue;
+   height: 500px;
+   width: 55%;
+}
+.parts{
+   width: 100%;
+   background-color:whitesmoke;
+   height: 500px;
+   margin-left: 0.2rem;
+}
+.footers{
+   background-color: green;
    text-align: center;
-   }
+   width:1500px;
+   margin-top: 7rem;
+   height: auto;
+}
+.td {
+   width: 50%;
+   height: 300px;
+
+}
+td{
+   font-size: 20px;
+   padding-left:1rem;
+   margin-left: 4rem;
+}
+img{
+   width: 85px;
+   height: 100px;
+}
