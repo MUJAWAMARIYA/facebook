@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>FacebookApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -26,15 +26,21 @@
                   <div class="icon"><%= image_tag"fc.jpg" %></div>
                 </td>
                 <td>
-                  <div class="div1">search</div>
+                  <div class="div1"><nav class="navbar navbar-light bg-light">
+                  <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </nav></div>
                 </td>
                 <td><%= image_tag"margo.jpg" %></td>
                 <td>margueritte</td>
                 <td><a href="signup.html">home</a></td>
-                <td><a href="#"><a href="#">message</a></td>
-                <td><a href="#">notifications</a></td>
-            
+                <td><a href="#"><a href="#"><%= image_tag"pro4.png" %></a></td>
+                <td><a href="#"><%= image_tag"images.jpg" %></a></td>
+                <td><a href="#"><%= image_tag"msg.jpg" %></a></td>
             </table>
+            
           </div>
         </nav>
       </div>
@@ -44,16 +50,16 @@
           <table class="td">
     
             <tr>
-              <td><%= image_tag"calend.jpg" %></td>
+              <td><a href=""><%= image_tag"calend.jpg" %></a></td>
               <td>events</td>
             </tr>
     
             <tr>
-              <td><%= image_tag"profile.png" %></td>
+              <td><a href=""><%= image_tag"profile.png" %></a></td>
               <td>friends</td>
             </tr>
             <tr>
-              <td><%= image_tag"mess.jpg" %></td>
+              <td><a href=""><%= image_tag"mess.jpg" %></a></td>
               <td>messanger</td>
             </tr>
           </table>
@@ -129,7 +135,7 @@
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <footer>
   
-        <p>Contact information: <a href="https://mail.google.com/mail/u/0/?hl=en#inbox"> mumarg2015@gmail.com</a>.</p>
+        <p class="contact">Contact information: <a href="https://mail.google.com/mail/u/0/?hl=en#inbox"> mumarg2015@gmail.com</a>.</p>
       </footer>
 
       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
