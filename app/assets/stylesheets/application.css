@@ -56,8 +56,8 @@ height: 500px;
    background-color: #4267b2;
    text-align: center;
    width:1322px;;
-   margin-top: 7rem;
-   height: auto;
+   margin-top: 15rem;
+  
    
 }
 .td {
@@ -76,4 +76,8 @@ img{
 }
 .contact {
    margin-left: 40rem;
+}
+.image{
+   width: 100%;
+   height: 1000px;
 }
