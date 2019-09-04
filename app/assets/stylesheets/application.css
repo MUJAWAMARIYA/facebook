@@ -1,15 +1,11 @@
-
 body{
-  
-   width: 100%;
+   background-color:whitesmoke;
 }
 .header{
    
    background-color: #0066cc;
+   width:100%;
 
-}
-td a{
-   color:black;
 }
 
 .div1{
@@ -23,9 +19,8 @@ td a{
 
    padding-left: 2rem;
 }
-
-table{
-   width: 100%;
+img{
+   width: 90px;
 }
 .part1{
    float: left;
@@ -33,52 +28,43 @@ table{
 width:28%;
 height: 500px;
 }
-.part2{
-   float: right;
-   margin-left: 15rem;
-   background-color: whitesmoke;
-   width: 26%;
-   height: 500px;
-}
-.part3{
-   margin-left:18rem;
-   background-color:whitesmoke;
-   height: 500px;
-   width: 53%;
-}
+
 .parts{
-   width: 100%;
+   width:30%;
    background-color:whitesmoke;
-   height: 500px;
+   height: 650px;
    margin-left: 0.2rem;
 }
-.footers{
-   background-color: #4267b2;
-   text-align: center;
-   width:1322px;;
-   margin-top: 40rem;
-   height: auto;
-  
-   
-}
 .td {
-   width: 50%;
+   width: 20%;
    height: 300px;
 
 }
-td{
-   font-size: 20px;
-   padding-left:1rem;
-   margin-left: 4rem;
-}
-img{
-   width: 90px;
-   height: 100px;
-}
-.contact {
-   margin-left: 40rem;
-}
+
 .image{
    width: 70%;
    height: 500px;
+}
+.form{
+  
+     margin-left:10rem;
+     margin-bottom: 50rem; 
+     width:1000px;
+
+}
+
+.footers{
+     
+   background-color: #0066cc;
+   width:1360px;
+    height: 50px;
+    float: left;
+   font-size: 20px;
+    text-align: center
+}
+h2{
+   width: 100%;
+}
+table{
+   width: 100%;
 }
